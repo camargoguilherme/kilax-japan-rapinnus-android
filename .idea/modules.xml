@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RapinnusAndroid.iml" filepath="$PROJECT_DIR$/RapinnusAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RapinnusAndroid.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RapinnusAndroid.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RapinnusAndroid.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RapinnusAndroid.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RapinnusAndroid.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RapinnusAndroid.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RapinnusAndroid.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RapinnusAndroid.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/postgresql-9.1-901.jdbc4/RapinnusAndroid.postgresql-9.1-901.jdbc4.iml" filepath="$PROJECT_DIR$/.idea/modules/postgresql-9.1-901.jdbc4/RapinnusAndroid.postgresql-9.1-901.jdbc4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zxing/RapinnusAndroid.zxing.iml" filepath="$PROJECT_DIR$/.idea/modules/zxing/RapinnusAndroid.zxing.iml" />
+    </modules>
+  </component>
+</project>

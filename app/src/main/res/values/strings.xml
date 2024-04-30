@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Rapinnus Android</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="gondola">Gondolas</string>
+    <string name="deposito">Deposito</string>
+    <string name="danificado">Danificado</string>
+
+    <string name="btnScan">Scan</string>
+    <string name="txtbtnQRcode">Leitor de QR Code</string>
+    <string name="txtbtnBarcode">Leitor de Código de Barra</string>
+
+    <string name="Deslogar">Deslogar</string>
+
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="lembrarSenha">Lembrar Senha</string>
+</resources>

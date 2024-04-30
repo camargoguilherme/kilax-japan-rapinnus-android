@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--main.xml-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/branco"
+    >
+
+    <TextView
+        android:id="@+id/txtDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição do Produto"
+        android:layout_above="@+id/txtSaldoGandola"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtSaldoDeposito"
+        android:layout_width="@dimen/text_saldo_deposito"
+        android:layout_height="@dimen/text_saldo_deposito"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/yellow"
+        android:textSize="@dimen/text_size2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gondola"
+        android:layout_above="@+id/txtSaldoDeposito"
+        android:layout_toLeftOf="@+id/txtSaldoGandola"
+        android:layout_toStartOf="@+id/txtSaldoGandola"
+        android:layout_marginBottom="29dp" />
+
+    <TextView
+        android:id="@+id/txtSaldoGandola"
+        android:layout_width="@dimen/text_saldo_gondola"
+        android:layout_height="@dimen/text_saldo_gondola"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_size"
+        android:layout_above="@+id/txtSaldoDeposito"
+        android:layout_alignRight="@+id/btnConsultar"
+        android:layout_alignEnd="@+id/btnConsultar" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:layout_toLeftOf="@+id/txtSaldoDeposito"
+        android:layout_toStartOf="@+id/txtSaldoDeposito"
+        android:text="@string/deposito" />
+
+    <Button
+        android:id="@+id/btnConsultar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="Consultar" />
+
+    <EditText
+        android:id="@+id/editTextCodbarra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginRight="43dp"
+        android:layout_marginEnd="43dp"
+        android:layout_above="@+id/txtDescricao"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/txtSaldoDanificados"
+        android:layout_width="@dimen/text_saldo_danificado"
+        android:layout_height="@dimen/text_saldo_danificado"
+        android:layout_alignLeft="@+id/txtSaldoDeposito"
+        android:layout_alignStart="@+id/txtSaldoDeposito"
+        android:layout_below="@+id/txtSaldoDeposito"
+        android:layout_marginTop="23dp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/yellow"
+        android:textSize="@dimen/text_size2" />
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:onClick="scanBar"
+        android:src="@drawable/cod_bar"
+        android:text="Button"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:layout_alignBottom="@+id/editTextCodbarra"
+        android:layout_toRightOf="@+id/txtDescricao"
+        android:layout_toEndOf="@+id/txtDescricao" />
+
+    <TextView
+        android:id="@+id/txtLoja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Londrina" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtSaldoDanificados"
+        android:layout_alignBottom="@+id/txtSaldoDanificados"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:text="@string/danificado" />
+
+
+</RelativeLayout>

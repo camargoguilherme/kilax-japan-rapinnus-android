@@ -1,0 +1,1 @@
+include ':app', ':postgresql-9.1-901.jdbc4', ':zxing'
